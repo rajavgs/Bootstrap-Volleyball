@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- <Navbar> -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img class="navbar-brand" src="images/spikelogo.png" alt="spike" height="60px" width="40px">
+      <h1 class="navbar-brand mt-2 ml-20 fs-2 text-dark">MMVA</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#rules">Rules</a>
+          <a class="nav-link" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- <Carousel> -->
+  <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/bg3.jpg" class="d-block w-100" alt="court">
+      </div>
+      <div class="carousel-item">
+        <img src="images/ball.jpg" class="d-block w-100" alt="ball">
+      </div>
+      <div class="carousel-item">
+        <img src="images/bg2.jpg" class="d-block w-100" alt="bg2">
+      </div>
+    </div>
+    <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- <Main container> -->
+  <div class="container">
+    <h1 class="text-center fs-1 p-5 mt-3">Choose your Training Timings!</h1>
+    <div class="bg-dark-subtle w-100 p-5 mt-2">
+      <!-- <h1><u>Training Timings:</u></h1> -->
+      <ul class="p-3 fs-4">
+        <h1 class="fs-2"><u>Monday to Saturday:</u></h1>
+        <li>Morning: 6-8 am</li>
+        <li>Evening: 4-6 pm</li>
+        <h1 class="fs-2"><u>Sunday:</u></h1>
+        <li>Morning: 6-9 am</li>
+      </ul>
+    </div>
+  </div>
+  <!-- About -->
+  <div class="container">
+    <h1 id="about" class="text-center fs-1 p-5 mt-3"><u>ABOUT MMVA</u></h1>
+    <div class="bg-dark-subtle w-100 p-5 mt-2">
+      <ul class="p-3 fs-4">
+        <li>MM Volleyball Academy has been started in the year 2020,inorder to train and promote the young aged talents
+          in the Volleyball Competitions. </li>
+        <li>In this academy,both boys and girls are trained from the beginner level.</li>
+        <li>We run the academy with highly qualified SAI coaches.</li>
+        <li>Our academy consists of two Volleyball clay courts surrounded by a net fence.</li>
+        <li>Age Category: Under-14,17 and 19.</li>
+      </ul>
+      <button type="button" class="btn btn-primary btn-lg ">Read more</button>
+    </div>
+  </div>
+  <!-- Skills -->
+  <div class="container">
+    <h1 id="about" class="text-center fs-1 p-5 mt-3"><u>SKILLS</u></h1>
+    <div class="bg-dark-subtle w-100 p-5 mt-2">
+      <div class="row">
+        <div class="col-4">
+          <div class="card mb-3">
+            <img src="images/attack.jpg" class="card-img-top" alt="spike" style="height: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title">Straight Attack</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card mb-3">
+            <img src="images/jump serve.jpg" class="card-img-top" alt="Jump Serve" style="height: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title">Jump Serve</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card mb-3">
+            <img src="images/single block.jpg" class="card-img-top" alt="single block" style="height: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title">Single Block</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="images/double block.jpg" class="card-img-top" alt="double block" style="height: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title">Double Block</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="images/triple block.jpg" class="card-img-top" alt="triple block" style="height: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title">Triple Block</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="images/dig.jpg" class="card-img-top" alt="dig" style="height: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title">Dig</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Rules      -->
+  <div class="container">
+    <h1 id="rules" class="text-center fs-1 p-5 mt-3"><u>RULES</u></h1>
+    <div class="bg-dark-subtle w-100 p-5 mt-2">
+      <img src="images/position.jpg" class="w-100" alt="volleyball">
+      <ul class="p-3 fs-4">
+
+        <li>6 players on a team, 3 on the front row and 3 on the back row.</li>
+        <li>Maximum of three hits per side.</li>
+        <li> Player may not hit the ball twice in succession (A block is not considered a hit)</li>
+        <li> Ball may be played off the net during a volley and on a serve.</li>
+        <li> A ball hitting a boundary line is "in".</li>
+
+      </ul>
+      <button type="button" class="btn btn-primary btn-lg ">Read more</button>
+    </div>
+  </div>
+  <!-- Contact -->
+  <!-- <div class="container"> -->
+    <h1 id="contact" class="text-center fs-1 p-5 mt-3"><u>CONTACT US</u></h1>
+    <!-- <div class="row">
+      <div class="col-sm"> -->
+    <div class="d-flex align-items-stretch bg-dark">
+      <div class="bg-dark-subtle w-100 p-5 mt-3 mb-3">
+        <h3 class="text-center"><u>Office</u></h3>
+        <div class="text-center">
+          <p>MMVA Campus</p>
+          <p>Namakkal-637208</p>
+          <p>Tamilnadu,India</p>
+          <p><a href="mailto: mmvacademy@gmail.com">mmvacademy@gmail.com</a></p>
+        </div>
+        <!-- </div> -->
+      </div>
+
+      <!-- <div class="col-sm"> -->
+      <div class="bg-dark-subtle w-100 p-5 mt-3 mb-3">
+        <h3 class="text-center"><u>Mobile</u></h3>
+        <p class="text-center">+91- 9876543210</p>
+      </div>
+      <!-- </div> -->
+      <!-- <div class="col-sm"> -->
+      <div class="bg-dark-subtle w-100 p-5 mt-3 mb-3">
+        <h3 class="text-center"><u>VISIT US AT</u></h3>
+        <div class="text-center fs-3 p-2">
+          <a href=# class="fa fa-facebook-f"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube text-danger"></a>
+          <a href="#" class="fa fa-instagram text-danger"></a>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  <!-- </div> -->
+  <footer class="bg-dark text-center text-white p-1 mt-5">
+    <p>&copy; MM Volleyball Academy © 2022 - All Rights Reserved</p>
+  </footer>
+</body>
+
+</html>
